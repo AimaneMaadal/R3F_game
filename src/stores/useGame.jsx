@@ -18,6 +18,8 @@ export default create(subscribeWithSelector((set) =>
          */
         phase: 'ready',
 
+        score: 0,
+
         start: () =>
         {
             set((state) =>
